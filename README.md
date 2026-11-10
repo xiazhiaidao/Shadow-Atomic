@@ -52,7 +52,23 @@
 
 需要游玩的玩家在 Releases 下载发布压缩包或玩家 JAR；本仓库提供源码，构建方法见 [BUILDING.md](BUILDING.md)。
 
+## 技能展示
+
+### 第一技能 · Atomic
+
+按 `V` 展开时停领域，范围内生物与抛射物静止；再按一次 `V` 引爆，中心默认 10000 伤害，边缘为 20%。
+
+![第一技能 Atomic 时停领域](docs/screenshots/skill-1-atomic-domain.png)
+
+### 第二技能 · Planetary
+
+按 `B` 瞄准生物释放，锁定本体后展开行星结界并结算单体伤害；可瞄准末影龙的部件并锁定本体。
+
+![第二技能 Planetary 行星爆发](docs/screenshots/skill-2-planetary.png)
+
 ## 实机截图
+
+高速飞行时的连续白紫马赫环：
 
 ![连续白紫马赫环](docs/screenshots/mach-rings-rear.png)
 
