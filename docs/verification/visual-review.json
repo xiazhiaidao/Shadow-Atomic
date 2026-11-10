@@ -1,0 +1,38 @@
+{
+  "version": "0.33.2-alpha",
+  "playerSha256": "95627660bcc0044dd0722063ef5d7eb3a7955dfac5a98489ba33df72f064dae2",
+  "method": "使用view_image查看原始游戏截图，未裁切或重绘。",
+  "screenshots": [
+    {
+      "name": "mach-rings-rear.png",
+      "sha256": "24ad54511e38cdf125189917334aa9531b63796ab91d80b860624f24bb5eab62",
+      "observation": "后置第三人称可见围绕角色的多道白紫连续环，沿航向排列，轮廓清楚。"
+    },
+    {
+      "name": "mach-rings-front.png",
+      "sha256": "7935e29f21dfe8b0f2a1f6e72eec4c83e2c931c02272abefeaf702abeb923643",
+      "observation": "前置第三人称可见角色身后的连续环链，仍能辨识角色和持剑。"
+    },
+    {
+      "name": "mach-rings-low-flash.png",
+      "sha256": "124a921726765a232d6edb0c695ca47779c653525745ea37ed40ba30e8972902",
+      "observation": "低闪光下环形保留，亮度与白色高光弱于普通模式；背景和HUD清楚。"
+    },
+    {
+      "name": "mach-rings-turn.png",
+      "sha256": "085a653445ce192bb280ad2612e2404aac951193ccbdf242dd965be6e72a0a10",
+      "observation": "转向后依然可见连续白紫环和气流，环围绕当前移动中的角色。"
+    },
+    {
+      "name": "mach-rings-reverse.png",
+      "sha256": "3a477e944c572e00a770cc6eb266aaccbbac9bf3ac1603d5d89a819d241c5f04",
+      "observation": "反向后的截图只剩细气流，未见超音速环；检查报告确认反向移动发生，环仍受速度阈值控制。"
+    },
+    {
+      "name": "shadow-body-final.png",
+      "sha256": "f7eb1f7767543f956e378d4e58c7c7e61c6e321ac6113182ebe8b4ff86531345",
+      "observation": "退出飞行后角色直立，画面无残留环、锥面和气流。"
+    }
+  ],
+  "limits": "截图确认环形可见和基本布局；未进行完整录屏音画、外部光影或真实多人验收。"
+}

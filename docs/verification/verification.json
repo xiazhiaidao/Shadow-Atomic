@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "version": "0.33.2-alpha",
+  "sha256": "95627660bcc0044dd0722063ef5d7eb3a7955dfac5a98489ba33df72f064dae2",
+  "checks": 86,
+  "changedSince0331": [
+    "META-INF/mods.toml",
+    "local/shadowatomic/client/ShadowMachFx.class"
+  ],
+  "productionInstanceModified": false,
+  "dedicatedMultiplayerTested": false,
+  "visualReview": "evidence/powers/visual-review.json"
+}

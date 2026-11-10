@@ -1,0 +1,30 @@
+{
+  "vertex": "shadow_atomic:atomic_volume",
+  "fragment": "shadow_atomic:atomic_actor",
+  "attributes": [
+    "Position",
+    "UV0"
+  ],
+  "samplers": [
+    {
+      "name": "ActorMask"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "Tint",
+      "type": "float",
+      "count": 3,
+      "values": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "blend": {
+    "func": "add",
+    "srcrgb": "srcalpha",
+    "dstrgb": "1-srcalpha"
+  }
+}

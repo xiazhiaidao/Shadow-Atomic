@@ -1,0 +1,11 @@
+{
+  "vertex":"shadow_atomic:recovery_filter",
+  "fragment":"shadow_atomic:recovery_filter",
+  "attributes":["Position","UV0"],
+  "samplers":[{"name":"Sampler0"}],
+  "uniforms":[
+    {"name":"Texel","type":"float","count":2,"values":[0.001,0.001]},
+    {"name":"Style","type":"float","count":1,"values":[0]},
+    {"name":"Amount","type":"float","count":1,"values":[0]}
+  ]
+}

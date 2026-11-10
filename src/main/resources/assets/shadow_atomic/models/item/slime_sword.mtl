@@ -1,0 +1,54 @@
+newmtl blade
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #surface
+
+newmtl blade_shadow
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #surface
+
+newmtl ridge
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #surface
+
+newmtl edge
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #surface
+
+newmtl fuller
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #surface
+
+newmtl guard
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #surface
+
+newmtl guard_edge
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #surface
+
+newmtl grip
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #surface
+
+newmtl wrap
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #surface
+
+newmtl collar
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #surface
+
+newmtl core
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #surface

@@ -1,0 +1,47 @@
+plugins { id 'net.minecraftforge.gradle' version '6.0.54' }
+version = '0.33.2-alpha'
+def networkQaRoot=file(project.findProperty('networkRoot') ?: 'qa/network')
+group = 'local.shadowatomic'
+base { archivesName = 'shadow-atomic' }
+java { toolchain.languageVersion = JavaLanguageVersion.of(17) }
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    copyIdeResources = true
+    runs {
+        client {
+            workingDirectory project.file('run')
+            mods { shadow_atomic { source sourceSets.main } }
+        }
+        server {
+            workingDirectory project.hasProperty('networkRoot') ? new File(networkQaRoot,'server') : project.file('run-server')
+            args '--nogui'
+            if (project.hasProperty('serverQa')) { jvmArgs '-Dshadowatomic.serverqa=true' }
+            if (project.hasProperty('networkRoot')) { jvmArgs '-Dshadowatomic.networkqa=true', "-Dshadowatomic.network.root=${networkQaRoot.absolutePath}" }
+            if (project.hasProperty('networkLoginCycles')) { jvmArgs "-Dshadowatomic.network.loginCycles=${project.property('networkLoginCycles')}" }
+            if (project.hasProperty('networkRange200')) { jvmArgs '-Dshadowatomic.network.range200=true' }
+            if (project.hasProperty('networkBlast200')) { jvmArgs '-Dshadowatomic.network.blast200=true' }
+            if (project.hasProperty('networkPlanetary')) { jvmArgs '-Dshadowatomic.network.planetary=true' }
+            if (project.hasProperty('networkProfile')) { jvmArgs "-XX:StartFlightRecording=filename=${new File(networkQaRoot,'server-profile.jfr').absolutePath},settings=profile,dumponexit=true" }
+            if (project.hasProperty('networkWorkCap')) { jvmArgs "-Dshadowatomic.network.workCap=${project.property('networkWorkCap')}" }
+            mods { shadow_atomic { source sourceSets.main } }
+        }
+    }
+}
+repositories { mavenCentral() }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.3.22' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('processResources').configure {
+    inputs.property 'mod_version', project.version.toString()
+    filesMatching('META-INF/mods.toml') { expand mod_version: project.version.toString() }
+}
+tasks.named('jar', Jar).configure {
+    exclude 'local/shadowatomic/qa/**'
+    exclude 'assets/shadow_atomic/qa/**'
+    finalizedBy 'reobfJar'
+}
+// Explicit opt-in test artifact. The normal distributable contains no automation.
+tasks.register('probeJar', Jar) {
+    archiveClassifier = 'probe'
+    from sourceSets.main.output
+}
+reobf { probeJar {} }

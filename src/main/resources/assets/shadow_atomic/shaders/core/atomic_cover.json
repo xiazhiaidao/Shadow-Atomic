@@ -1,0 +1,11 @@
+{
+  "vertex": "shadow_atomic:atomic_cover",
+  "fragment": "shadow_atomic:atomic_cover",
+  "attributes": ["Position", "UV0"],
+  "samplers": [],
+  "uniforms": [
+    {"name":"Time","type":"float","count":1,"values":[0]},
+    {"name":"Cover","type":"float","count":1,"values":[0]},
+    {"name":"Aspect","type":"float","count":1,"values":[1.7777778]}
+  ]
+}

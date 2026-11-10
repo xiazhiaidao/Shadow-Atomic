@@ -1,0 +1,10 @@
+{
+  "vertex":"shadow_atomic:atomic_volume",
+  "fragment":"shadow_atomic:atomic_bloom",
+  "attributes":["Position","UV0"],
+  "samplers":[{"name":"SceneColor"},{"name":"BloomColor"}],
+  "uniforms":[
+    {"name":"Direction","type":"float","count":2,"values":[0,0]},
+    {"name":"Pass","type":"float","count":1,"values":[0]}
+  ]
+}

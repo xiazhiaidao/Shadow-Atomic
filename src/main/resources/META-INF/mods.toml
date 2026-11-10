@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="shadow_atomic"
+version="${mod_version}"
+displayName="Shadow Atomic"
+authors="MCmod"
+description='''Cinematic Atomic with original volumetric energy, synchronized voice/music excerpts, configurable radius and journaled terrain destruction. Domains pause non-player living entities until they end. /atomic preview causes no damage or terrain changes. This is an alpha build.'''
+[[dependencies.shadow_atomic]]
+modId="forge"
+mandatory=true
+versionRange="[47.1,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.shadow_atomic]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

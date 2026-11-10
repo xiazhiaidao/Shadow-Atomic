@@ -1,0 +1,96 @@
+{
+  "sonic_boom": {
+    "subtitle": "subtitles.shadow_atomic.sonic_boom",
+    "sounds": [{"name": "shadow_atomic:sonic_boom", "stream": false}]
+  },
+  "charge": {
+    "subtitle": "subtitles.shadow_atomic.charge",
+    "sounds": [
+      {
+        "name": "shadow_atomic:charge",
+        "stream": false
+      }
+    ]
+  },
+  "blast": {
+    "subtitle": "subtitles.shadow_atomic.blast",
+    "sounds": [
+      {
+        "name": "shadow_atomic:blast",
+        "stream": false
+      }
+    ]
+  },
+  "tail": {
+    "subtitle": "subtitles.shadow_atomic.tail",
+    "sounds": [
+      {
+        "name": "shadow_atomic:tail",
+        "stream": false
+      }
+    ]
+  },
+  "music_theme": {
+    "subtitle": "subtitles.shadow_atomic.music_theme",
+    "sounds": [
+      {
+        "name": "shadow_atomic:music_theme",
+        "stream": true
+      }
+    ]
+  },
+  "voice_atomic": {
+    "subtitle": "subtitles.shadow_atomic.voice_atomic",
+    "sounds": [
+      {
+        "name": "shadow_atomic:voice_atomic",
+        "stream": false
+      }
+    ]
+  },
+  "domain_loop": {
+    "subtitle": "subtitles.shadow_atomic.domain_loop",
+    "sounds": [
+      {
+        "name": "shadow_atomic:domain_loop",
+        "stream": true
+      }
+    ]
+  },
+  "recovery_charge": {
+    "subtitle": "subtitles.shadow_atomic.recovery_charge",
+    "sounds": [
+      {
+        "name": "shadow_atomic:recovery_charge",
+        "stream": false
+      }
+    ]
+  },
+  "recovery_weave": {
+    "subtitle": "subtitles.shadow_atomic.recovery_weave",
+    "sounds": [
+      {
+        "name": "shadow_atomic:recovery_weave",
+        "stream": false
+      }
+    ]
+  },
+  "recovery_end": {
+    "subtitle": "subtitles.shadow_atomic.recovery_end",
+    "sounds": [
+      {
+        "name": "shadow_atomic:recovery_end",
+        "stream": false
+      }
+    ]
+  },
+  "recovery_voice": {
+    "subtitle": "subtitles.shadow_atomic.recovery_voice",
+    "sounds": [
+      {
+        "name": "shadow_atomic:recovery_voice",
+        "stream": false
+      }
+    ]
+  }
+}

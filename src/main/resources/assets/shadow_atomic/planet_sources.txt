@@ -1,0 +1,23 @@
+# Planetary scene sources
+
+The Shooting Star Demo is a visual reference only. No code, textures, models, shaders or audio have been extracted from its JAR.
+
+Earth daytime texture (original 2048×1024 PNG, unmodified): NASA/Goddard Space Flight Center Scientific Visualization Studio. The Blue Marble data is courtesy of Reto Stockli (NASA/GSFC) and NASA Earth Observatory.
+Source page: https://svs.gsfc.nasa.gov/2915
+Asset: https://svs.gsfc.nasa.gov/vis/a000000/a002900/a002915/bluemarble-2048.png
+
+Earth nighttime texture (original 2048×1024 PNG, unmodified): data courtesy Marc Imhoff (NASA/GSFC) and Christopher Elvidge (NOAA/NGDC). Image by Craig Mayhew (NASA/GSFC) and Robert Simmon (NASA/GSFC).
+Source page: https://svs.gsfc.nasa.gov/2916
+Asset: https://svs.gsfc.nasa.gov/vis/a000000/a002900/a002916/earthatnight-2048.png
+NASA image/media guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/
+No NASA insignia, endorsement, or logo is used. These credited source images are separate from the project's own implementation license.
+
+Stars, cloud motion, atmosphere, lighting, protective shell, other planets, rings, framing and burst rendering are original procedural shader code. Celestial arrangement and scale are cinematic rather than an astronomical simulation.
+
+Anime visual reference supplied by the user: Bilibili BV19VqMBKEMS P32, second season episode12. Public unauthenticated playback metadata, cid35232943869, qn16. Locally inspected short reference video segments15:00–16:00 and16:00–19:00; contact sheets and reference clips remain in qa/planetary-reference only, outside the player JAR. The 16:10–16:32 samples show enemy lock glyph, the spoken attack, Saturn foreground and receding other planets, then white/violet illumination.
+
+Current second-skill soundtrack reuses the six existing sounds, including the full Japanese I Am Atomic voice; no claim that a new P32 voice has been cut or human synchronized. See AUDIO_SOURCES.md. No anime video frames are embedded in the game scene.
+
+SHA256 earth_day.png: ae6214b078ed0864c96f74bcb10ae3021f6eb116f8059797efe0fa9ea8b89d35
+
+SHA256 earth_night.png: 28407a1a802868852b3c232dbeaf16b5165e8200898cc7df6a2fec70708556cd

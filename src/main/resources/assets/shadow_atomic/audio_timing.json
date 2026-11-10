@@ -1,0 +1,10 @@
+{
+  "voiceStart": 2.1,
+  "introLoopAt": 20.2,
+  "musicVolume": 0.85,
+  "voiceVolume": 1.0,
+  "voiceSourceStart": 9.0,
+  "voiceSourceEnd": 14.2,
+  "voiceAtomicEndOffsetAsr": 4.84,
+  "releaseToBlastSeconds": 5.0
+}

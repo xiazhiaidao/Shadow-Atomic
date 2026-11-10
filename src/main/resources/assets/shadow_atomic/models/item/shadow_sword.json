@@ -1,0 +1,20 @@
+{
+  "loader": "forge:separate_transforms",
+  "textures": {
+    "particle": "shadow_atomic:item/shadow_sword"
+  },
+  "base": {
+    "parent": "shadow_atomic:item/slime_sword_held"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "shadow_atomic:item/shadow_sword"
+      }
+    },
+    "fixed": {
+      "parent": "shadow_atomic:item/slime_sword_held"
+    }
+  }
+}
