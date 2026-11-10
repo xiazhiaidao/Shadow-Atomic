@@ -48,7 +48,9 @@
 
 ## 下载与源码
 
-安装包位于本仓库 Releases。需要游玩的玩家下载发布压缩包或玩家 JAR；本仓库提供源码，构建方法见 [BUILDING.md](BUILDING.md)。
+[下载 0.33.2-alpha 发布包](https://github.com/xiazhiaidao/Shadow-Atomic/releases/tag/v0.33.2-alpha)
+
+需要游玩的玩家在 Releases 下载发布压缩包或玩家 JAR；本仓库提供源码，构建方法见 [BUILDING.md](BUILDING.md)。
 
 ## 实机截图
 
