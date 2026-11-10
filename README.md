@@ -66,6 +66,8 @@
 
 ![第二技能 Planetary 行星爆发](docs/screenshots/skill-2-planetary.png)
 
+以上均为游戏内实机录制画面（模组自带的技能演出镜头，非渲染图或宣传画）。
+
 ## 实机截图
 
 高速飞行时的连续白紫马赫环：
